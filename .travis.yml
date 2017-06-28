@@ -1,5 +1,6 @@
 language: objective-c  #1
 osx_image: xcode8.3 #2
-xcode_project: Pospot.xcworkspace #3
+xcode_workspace: Pospot.xcworkspace #3
 xcode_scheme: Pospot #4
-xcode_sdk: iphonesimulator10.0 #5
+xcode_sdk: iphonesimulator10.3 #5
+script: xcodebuild clean && xcodebuild build -sdk iphonesimulator10.3 -workspace Pospot.xcworkspace -scheme Pospot CODE_SIGNING_REQUIRED=NO
