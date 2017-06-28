@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20E066521F02C00C00866447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E066511F02C00C00866447 /* AppDelegate.swift */; };
+		20E066541F02C00C00866447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E066531F02C00C00866447 /* ViewController.swift */; };
+		20E066571F02C00C00866447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E066551F02C00C00866447 /* Main.storyboard */; };
+		20E0665A1F02C00C00866447 /* Pospot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20E066581F02C00C00866447 /* Pospot.xcdatamodeld */; };
+		20E0665C1F02C00C00866447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E0665B1F02C00C00866447 /* Assets.xcassets */; };
+		20E0665F1F02C00C00866447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E0665D1F02C00C00866447 /* LaunchScreen.storyboard */; };
+		20E0666A1F02C00C00866447 /* PospotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E066691F02C00C00866447 /* PospotTests.swift */; };
+		20E066751F02C00C00866447 /* PospotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E066741F02C00C00866447 /* PospotUITests.swift */; };
+		5E263936D21ADC4DE2044E10 /* Pods_PospotTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B600D625000E8D2F7D82405 /* Pods_PospotTests.framework */; };
+		BDF183BA5FC23B35431F4388 /* Pods_Pospot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A05EA6DFE196E8573DEBD6 /* Pods_Pospot.framework */; };
+		EC66713A2A9E72F662FF7257 /* Pods_PospotUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A10AD27D2C16FA9D778DF4 /* Pods_PospotUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20E066661F02C00C00866447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E066461F02C00C00866447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E0664D1F02C00C00866447;
+			remoteInfo = Pospot;
+		};
+		20E066711F02C00C00866447 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20E066461F02C00C00866447 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20E0664D1F02C00C00866447;
+			remoteInfo = Pospot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12762E4BA9961561A45E46C8 /* Pods-PospotTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PospotTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PospotTests/Pods-PospotTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20E0664E1F02C00C00866447 /* Pospot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pospot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E066511F02C00C00866447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20E066531F02C00C00866447 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20E066561F02C00C00866447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20E066591F02C00C00866447 /* Pospot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pospot.xcdatamodel; sourceTree = "<group>"; };
+		20E0665B1F02C00C00866447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20E0665E1F02C00C00866447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20E066601F02C00C00866447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E066651F02C00C00866447 /* PospotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PospotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E066691F02C00C00866447 /* PospotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PospotTests.swift; sourceTree = "<group>"; };
+		20E0666B1F02C00C00866447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20E066701F02C00C00866447 /* PospotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PospotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20E066741F02C00C00866447 /* PospotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PospotUITests.swift; sourceTree = "<group>"; };
+		20E066761F02C00C00866447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E993421AF542927C83F5700 /* Pods-PospotUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PospotUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PospotUITests/Pods-PospotUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52A05EA6DFE196E8573DEBD6 /* Pods_Pospot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pospot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5954A721AD0D092948FE12E7 /* Pods-PospotTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PospotTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PospotTests/Pods-PospotTests.release.xcconfig"; sourceTree = "<group>"; };
+		62A10AD27D2C16FA9D778DF4 /* Pods_PospotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PospotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B600D625000E8D2F7D82405 /* Pods_PospotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PospotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75BD63DEF6DBF96BFDDFAD85 /* Pods-PospotUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PospotUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PospotUITests/Pods-PospotUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CAD793C2459E7919BB905AC /* Pods-Pospot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pospot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pospot/Pods-Pospot.debug.xcconfig"; sourceTree = "<group>"; };
+		DCDDA141BAB80DD526117CFE /* Pods-Pospot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pospot.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pospot/Pods-Pospot.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E0664B1F02C00C00866447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF183BA5FC23B35431F4388 /* Pods_Pospot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E066621F02C00C00866447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E263936D21ADC4DE2044E10 /* Pods_PospotTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E0666D1F02C00C00866447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC66713A2A9E72F662FF7257 /* Pods_PospotUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20E066451F02C00C00866447 = {
+			isa = PBXGroup;
+			children = (
+				20E066501F02C00C00866447 /* Pospot */,
+				20E066681F02C00C00866447 /* PospotTests */,
+				20E066731F02C00C00866447 /* PospotUITests */,
+				20E0664F1F02C00C00866447 /* Products */,
+				CE9D918CB953CBB401206BC2 /* Pods */,
+				F6CBC2DE651715445A331763 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20E0664F1F02C00C00866447 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20E0664E1F02C00C00866447 /* Pospot.app */,
+				20E066651F02C00C00866447 /* PospotTests.xctest */,
+				20E066701F02C00C00866447 /* PospotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20E066501F02C00C00866447 /* Pospot */ = {
+			isa = PBXGroup;
+			children = (
+				20E066511F02C00C00866447 /* AppDelegate.swift */,
+				20E066531F02C00C00866447 /* ViewController.swift */,
+				20E066551F02C00C00866447 /* Main.storyboard */,
+				20E0665B1F02C00C00866447 /* Assets.xcassets */,
+				20E0665D1F02C00C00866447 /* LaunchScreen.storyboard */,
+				20E066601F02C00C00866447 /* Info.plist */,
+				20E066581F02C00C00866447 /* Pospot.xcdatamodeld */,
+			);
+			path = Pospot;
+			sourceTree = "<group>";
+		};
+		20E066681F02C00C00866447 /* PospotTests */ = {
+			isa = PBXGroup;
+			children = (
+				20E066691F02C00C00866447 /* PospotTests.swift */,
+				20E0666B1F02C00C00866447 /* Info.plist */,
+			);
+			path = PospotTests;
+			sourceTree = "<group>";
+		};
+		20E066731F02C00C00866447 /* PospotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20E066741F02C00C00866447 /* PospotUITests.swift */,
+				20E066761F02C00C00866447 /* Info.plist */,
+			);
+			path = PospotUITests;
+			sourceTree = "<group>";
+		};
+		CE9D918CB953CBB401206BC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CAD793C2459E7919BB905AC /* Pods-Pospot.debug.xcconfig */,
+				DCDDA141BAB80DD526117CFE /* Pods-Pospot.release.xcconfig */,
+				12762E4BA9961561A45E46C8 /* Pods-PospotTests.debug.xcconfig */,
+				5954A721AD0D092948FE12E7 /* Pods-PospotTests.release.xcconfig */,
+				75BD63DEF6DBF96BFDDFAD85 /* Pods-PospotUITests.debug.xcconfig */,
+				3E993421AF542927C83F5700 /* Pods-PospotUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F6CBC2DE651715445A331763 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52A05EA6DFE196E8573DEBD6 /* Pods_Pospot.framework */,
+				6B600D625000E8D2F7D82405 /* Pods_PospotTests.framework */,
+				62A10AD27D2C16FA9D778DF4 /* Pods_PospotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20E0664D1F02C00C00866447 /* Pospot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E066791F02C00C00866447 /* Build configuration list for PBXNativeTarget "Pospot" */;
+			buildPhases = (
+				46AF028CD6E40D31FB7EA4E7 /* [CP] Check Pods Manifest.lock */,
+				20E0664A1F02C00C00866447 /* Sources */,
+				20E0664B1F02C00C00866447 /* Frameworks */,
+				20E0664C1F02C00C00866447 /* Resources */,
+				0B6C25278E8161D52B1159B1 /* [CP] Embed Pods Frameworks */,
+				5D00382EE7AC3EE7A0B04BC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pospot;
+			productName = Pospot;
+			productReference = 20E0664E1F02C00C00866447 /* Pospot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20E066641F02C00C00866447 /* PospotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E0667C1F02C00C00866447 /* Build configuration list for PBXNativeTarget "PospotTests" */;
+			buildPhases = (
+				12D8F85E9D6053E3E44C1DFF /* [CP] Check Pods Manifest.lock */,
+				20E066611F02C00C00866447 /* Sources */,
+				20E066621F02C00C00866447 /* Frameworks */,
+				20E066631F02C00C00866447 /* Resources */,
+				BF2E29E65357A7E4DF1E5483 /* [CP] Embed Pods Frameworks */,
+				030434B57C468DDDACD1982C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E066671F02C00C00866447 /* PBXTargetDependency */,
+			);
+			name = PospotTests;
+			productName = PospotTests;
+			productReference = 20E066651F02C00C00866447 /* PospotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20E0666F1F02C00C00866447 /* PospotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20E0667F1F02C00C00866447 /* Build configuration list for PBXNativeTarget "PospotUITests" */;
+			buildPhases = (
+				A6D6E9E87DD4C8D5DD5587FC /* [CP] Check Pods Manifest.lock */,
+				20E0666C1F02C00C00866447 /* Sources */,
+				20E0666D1F02C00C00866447 /* Frameworks */,
+				20E0666E1F02C00C00866447 /* Resources */,
+				CD6D451BEADD8C15442A21DB /* [CP] Embed Pods Frameworks */,
+				6190FCC1DABFA8F57C3654DF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20E066721F02C00C00866447 /* PBXTargetDependency */,
+			);
+			name = PospotUITests;
+			productName = PospotUITests;
+			productReference = 20E066701F02C00C00866447 /* PospotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20E066461F02C00C00866447 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = DZW;
+				TargetAttributes = {
+					20E0664D1F02C00C00866447 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y685976N4;
+						ProvisioningStyle = Automatic;
+					};
+					20E066641F02C00C00866447 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y685976N4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20E0664D1F02C00C00866447;
+					};
+					20E0666F1F02C00C00866447 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 4Y685976N4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20E0664D1F02C00C00866447;
+					};
+				};
+			};
+			buildConfigurationList = 20E066491F02C00C00866447 /* Build configuration list for PBXProject "Pospot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20E066451F02C00C00866447;
+			productRefGroup = 20E0664F1F02C00C00866447 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20E0664D1F02C00C00866447 /* Pospot */,
+				20E066641F02C00C00866447 /* PospotTests */,
+				20E0666F1F02C00C00866447 /* PospotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20E0664C1F02C00C00866447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E0665F1F02C00C00866447 /* LaunchScreen.storyboard in Resources */,
+				20E0665C1F02C00C00866447 /* Assets.xcassets in Resources */,
+				20E066571F02C00C00866447 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E066631F02C00C00866447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E0666E1F02C00C00866447 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		030434B57C468DDDACD1982C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PospotTests/Pods-PospotTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B6C25278E8161D52B1159B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pospot/Pods-Pospot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		12D8F85E9D6053E3E44C1DFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46AF028CD6E40D31FB7EA4E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D00382EE7AC3EE7A0B04BC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pospot/Pods-Pospot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6190FCC1DABFA8F57C3654DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PospotUITests/Pods-PospotUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6D6E9E87DD4C8D5DD5587FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF2E29E65357A7E4DF1E5483 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PospotTests/Pods-PospotTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD6D451BEADD8C15442A21DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PospotUITests/Pods-PospotUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20E0664A1F02C00C00866447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E0665A1F02C00C00866447 /* Pospot.xcdatamodeld in Sources */,
+				20E066541F02C00C00866447 /* ViewController.swift in Sources */,
+				20E066521F02C00C00866447 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E066611F02C00C00866447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E0666A1F02C00C00866447 /* PospotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E0666C1F02C00C00866447 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20E066751F02C00C00866447 /* PospotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20E066671F02C00C00866447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E0664D1F02C00C00866447 /* Pospot */;
+			targetProxy = 20E066661F02C00C00866447 /* PBXContainerItemProxy */;
+		};
+		20E066721F02C00C00866447 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20E0664D1F02C00C00866447 /* Pospot */;
+			targetProxy = 20E066711F02C00C00866447 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20E066551F02C00C00866447 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E066561F02C00C00866447 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20E0665D1F02C00C00866447 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20E0665E1F02C00C00866447 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20E066771F02C00C00866447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20E066781F02C00C00866447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20E0667A1F02C00C00866447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CAD793C2459E7919BB905AC /* Pods-Pospot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y685976N4;
+				INFOPLIST_FILE = Pospot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzw.Pospot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		20E0667B1F02C00C00866447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCDDA141BAB80DD526117CFE /* Pods-Pospot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4Y685976N4;
+				INFOPLIST_FILE = Pospot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzw.Pospot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		20E0667D1F02C00C00866447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12762E4BA9961561A45E46C8 /* Pods-PospotTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y685976N4;
+				INFOPLIST_FILE = PospotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzw.PospotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pospot.app/Pospot";
+			};
+			name = Debug;
+		};
+		20E0667E1F02C00C00866447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5954A721AD0D092948FE12E7 /* Pods-PospotTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4Y685976N4;
+				INFOPLIST_FILE = PospotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzw.PospotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pospot.app/Pospot";
+			};
+			name = Release;
+		};
+		20E066801F02C00C00866447 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BD63DEF6DBF96BFDDFAD85 /* Pods-PospotUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4Y685976N4;
+				INFOPLIST_FILE = PospotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzw.PospotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pospot;
+			};
+			name = Debug;
+		};
+		20E066811F02C00C00866447 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E993421AF542927C83F5700 /* Pods-PospotUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4Y685976N4;
+				INFOPLIST_FILE = PospotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dzw.PospotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Pospot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20E066491F02C00C00866447 /* Build configuration list for PBXProject "Pospot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E066771F02C00C00866447 /* Debug */,
+				20E066781F02C00C00866447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E066791F02C00C00866447 /* Build configuration list for PBXNativeTarget "Pospot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E0667A1F02C00C00866447 /* Debug */,
+				20E0667B1F02C00C00866447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E0667C1F02C00C00866447 /* Build configuration list for PBXNativeTarget "PospotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E0667D1F02C00C00866447 /* Debug */,
+				20E0667E1F02C00C00866447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20E0667F1F02C00C00866447 /* Build configuration list for PBXNativeTarget "PospotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20E066801F02C00C00866447 /* Debug */,
+				20E066811F02C00C00866447 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		20E066581F02C00C00866447 /* Pospot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				20E066591F02C00C00866447 /* Pospot.xcdatamodel */,
+			);
+			currentVersion = 20E066591F02C00C00866447 /* Pospot.xcdatamodel */;
+			path = Pospot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 20E066461F02C00C00866447 /* Project object */;
+}
